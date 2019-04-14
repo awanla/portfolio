@@ -1,0 +1,15 @@
+.title h1{
+    font-family: 'Marck Script', cursive;
+}
+.pic{
+    height:  100%;
+    width: 100%;
+    background-size: cover;
+}
+.pic:hover{
+    background-color: red;
+    opacity: .4;
+}
+.portfolio hr{
+    margin: 20px 0;
+}
