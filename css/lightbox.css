@@ -13,7 +13,7 @@ body.lb-disable-scrolling {
   top: 0;
   left: 0;
   z-index: 9999;
-  background-color: orange;
+  background-color: black;
   filter: progid:DXImageTransform.Microsoft.Alpha(Opacity=80);
   opacity: 0.5;
   display: none;
@@ -170,9 +170,10 @@ body.lb-disable-scrolling {
 }
 
 .lb-data .lb-caption {
-  font-size: 13px;
+  font-size: 20px;
   font-weight: bold;
   line-height: 1em;
+  color: #fff;
 }
 
 .lb-data .lb-number {
