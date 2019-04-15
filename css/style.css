@@ -1,15 +1,65 @@
+*{
+    position: relative;
+   font-family: 'Noto Sans TC', sans-serif;
+}
 .title h1{
     font-family: 'Marck Script', cursive;
 }
+.title ul{
+    padding: 0;
+}
+.title li{
+    display: initial;
+}
+.title a{
+    
+    text-decoration: none;
+    margin: 0 20px;
+    color: black;
+    font-family: 'Noto Sans TC', sans-serif;
+    
+}
+.title a:hover{
+    color: orange;
+    
+}
+.title li:hover a::before{
+    width: 100%;
+}
+.title a::before{
+    content: "";
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    height: 3px;
+    background-color: orange;
+    width: 0%;
+    transition: all 0.5s;
+
+}
+
 .pic{
     height:  100%;
     width: 100%;
     background-size: cover;
 }
+.picweb{
+    height:  100%;
+    width: 100%;
+    background-size: cover;
+}
 .pic:hover{
-    background-color: red;
+    background-color: #000;
     opacity: .4;
 }
 .portfolio hr{
     margin: 20px 0;
+}
+
+.footer{
+    margin: 40px 0;
+    background-color: #3d3d3d;
+    color: aliceblue;
+    padding: 10px;
+    text-align: center;
 }
