@@ -12,7 +12,7 @@
     display: initial;
 }
 .title a{
-    
+    padding-bottom: 5px;
     text-decoration: none;
     margin: 0 20px;
     color: black;
@@ -26,6 +26,7 @@
 .title li:hover a::before{
     width: 100%;
 }
+
 .title a::before{
     content: "";
     position: absolute;
@@ -37,7 +38,9 @@
     transition: all 0.5s;
 
 }
-
+  a.current:before{
+	width: 100%;
+}
 .pic{
     height:  100%;
     width: 100%;
@@ -77,3 +80,4 @@
     margin: 0px;
     color: #3d3d3d;
 }
+
