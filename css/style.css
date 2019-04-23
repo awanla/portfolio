@@ -19,6 +19,13 @@
     font-family: 'Noto Sans TC', sans-serif;
     
 }
+@media(max-width:425px){
+    .title a{
+    
+    margin: 0 15px;
+        
+    }
+}
 .title a:hover{
     color: orange;
     
